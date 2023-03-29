@@ -1,0 +1,300 @@
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;   
+}
+
+nav {
+    box-shadow: 0px 4px 30px -15px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin-left: 20px;
+     
+}
+
+nav ul li button {
+    color: black;
+    font-weight: 400;
+    font-size: 16px; 
+    background-color: transparent;
+    border: none;
+}
+
+nav ul li:hover button {
+    font-weight: 600;
+}
+
+main section ul li img {
+    width: 278px;
+    height: 154px;
+    background-color: #F5F5F5;
+    margin-bottom: 20px;
+}
+
+main section ul li span {
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #2E245E;
+    color: 
+    #FFFFFF;
+    padding: 5px 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+
+main section ul li h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #292929;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+main section ul li p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #242424;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.preco {
+    color:#2E245E;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card {
+    width: 280px;
+    height: 408px;
+    border: 1px solid #F5F5F5;
+    margin-bottom: 20px;
+    
+}
+
+.card:hover {
+    border-color: #2E245E;
+}
+
+.adicionar {
+    font-weight: 500;
+    border: none;
+    width: 200px;
+    background-color: transparent;
+    font-size: 14px;
+    color: #242424;
+    margin-top: 20px;
+    margin-left: 5px;
+    text-align: start;
+}
+.adicionar:hover {
+    color: #2E245E;
+    text-decoration: underline;
+}
+
+main section ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}   
+
+.listaVitrine {
+    width: 80%;
+}
+
+section {
+    margin-top: 40px;
+}
+
+section input {
+    width: 246px;
+    height: 50px;
+    background-color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+}
+
+section button {
+    width: 96px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #37268C;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.carrinho {
+    width: 25%;
+    margin-left: 50px;
+}
+
+.pesquisar {
+    display: flex;
+}
+
+.comprasNome h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+    background-color:#37268C;
+    color: #FFFFFF;
+    width: 347px;
+    height: 50px;
+    padding-top: 15px;
+}
+
+.compras li h3 {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.comprasli p {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.compras {
+    width: 347px;
+    height: 400px;
+    max-height: 400px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    overflow-y: scroll;
+
+}
+
+.compra {
+    display: flex;
+    flex-direction: column;
+    width: 345px;
+    height: 126px;
+    background-color: #292929;
+    color: #FFFFFF;
+    justify-content: space-evenly;
+    padding: 0 10px;
+}
+
+.qnt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.compras li img {
+    max-width: 88px;
+    max-height: 80px;
+    background-color: #FFFFFF;
+    margin-right: 0px;
+    
+}
+
+.compras li h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 1px;
+    text-align: start;
+}
+
+.compras li p {
+    color: #2E245E;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: start;
+}
+
+.compras li button {
+    background-color: transparent;
+    border: none;
+    color: #242424;
+    width: 125px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: start;
+    margin-top: 10px;
+    align-items: flex-start;
+    margin-left: 3px;
+}
+
+.compras li {
+    display: flex;
+    align-content: space-around;
+    width: 347px;
+    height: 67px;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+
+.semCompras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+    width: 347px;
+    height: 214px;
+}
+
+.semCompras h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #292929;
+    margin-top: 95px;
+}
+
+.semCompras p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #242424;
+    margin-top: 10px;
+}
+
+
+.transparente {
+    width: 0px;
+    height: 0px;
+    border-color: transparent;
+    color: transparent;
+    background-color: transparent;
+}
+
+
